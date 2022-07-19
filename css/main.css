@@ -1,0 +1,85 @@
+html {
+    background: url(https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+body {
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    font-size: 16px;
+    background: rgb(60,60,60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(90deg, rgba(60,60,60,1) 0%, rgba(60,60,60,1) 70%, rgba(60,60,60,0.5) 88%, rgba(60,60,60,0) 100%);
+    min-height: 100vh;
+    font-weight: 500;
+}
+
+.avatar {
+    width: 300px;
+    margin-bottom: 1.5em;
+    object-fit: cover;
+    box-shadow: 10px 10px 0 0 black;
+}
+
+.container {
+    max-width: 600px;
+    padding: 128px 128px 100px 128px;
+}
+
+.name {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0.25em;
+}
+
+.job {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.about-me {
+    font-weight: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 2em;
+}
+
+.contacts {
+    margin-bottom: 3em;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.contact-icon {
+    margin-right: 10px;
+    width: 1rem
+}
+
+.contact-item {
+    margin: 0.5em 0;
+}
+
+.contact-btn {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 1em 1.5em;
+}
+
+@media screen and (max-width: 768px){
+    .container {
+        padding: 48px;
+    }
+
+    body {
+        background: linear-gradient(90deg, rgba(60,60,60,1) 0%, rgba(60,60,60,1) 80%, rgba(60,60,60,0.5) 100%);
+    }
+}
